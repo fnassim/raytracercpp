@@ -22,7 +22,6 @@ public:
 	Vector3d addVector(Vector3d v);
 	Vector3d subVector(Vector3d v);
 	Vector3d multVector(double scalar);
-	Vector3d divVector(Vector3d v);
 	double getMagnitude();
 
 protected:

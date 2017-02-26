@@ -4,11 +4,18 @@
 #include "vector3d.hh"
 #include "ray.hh"
 #include "Camera.hh"
+#include "light.hh"
+#include "Sphere.hh"
+#include "Object.hh"
+#include "plane.hh"
 
 #define SCREEN_X = 1024;
 #define SCREEN_Y = 768;
 
 int wmain() {
+	int dpi = 72;
+	int n = 1024 * 768;
+	int aspectratio = (double)1024 / (double)768;
 	Engine engine(1024, 768, "Raytracer");
 	
 	Vector3d x(1, 0, 0);
@@ -27,6 +34,10 @@ int wmain() {
 	Vector3d camdown = camright.crossProduct(camdir);
 	
 	Camera scene_cam(campos, camdir, camdown, camright);
+	Light light(Vector3d(0,0,0));
+	Sphere(Vector3d(0,0,0), 3.0);
+	Plane(y, -1);
+	
 
 	engine.fireRays();
 	

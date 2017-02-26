@@ -1,0 +1,10 @@
+﻿  camera.cpp
+  Engine.cpp
+  main.cpp
+  Ray.cpp
+  vector3d.cpp
+  Generating code
+  All 89 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Release\Project2.exe
+  Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Release\Project2.pdb (Full PDB)

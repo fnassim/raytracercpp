@@ -1,2 +1,8 @@
-﻿  Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Debug\Project2.exe
+﻿  main.cpp
+  Generating Code...
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+  Compiling...
+  plane.cpp
+  Generating Code...
+  Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Debug\Project2.exe
   Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Debug\Project2.pdb (Partial PDB)

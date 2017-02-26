@@ -30,6 +30,21 @@
     <ClCompile Include="camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="light.hh">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -48,6 +63,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ray.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

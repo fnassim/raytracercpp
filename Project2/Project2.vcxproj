@@ -112,16 +112,24 @@
   <ItemGroup>
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="light.hh" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="plane.cpp" />
+    <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="vector3d.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="plane.hh" />
     <ClInclude Include="Engine.hh" />
     <ClInclude Include="Camera.hh" />
+    <ClInclude Include="Object.hh" />
+    <ClInclude Include="Sphere.hh" />
     <ClInclude Include="ray.hh" />
     <ClInclude Include="Raytracer.hh" />
     <ClInclude Include="vector3d.hh" />
