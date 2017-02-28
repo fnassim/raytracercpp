@@ -55,15 +55,18 @@ void Engine::drawPixel(int x, int y) {
 	SDL_SetRenderDrawColor(getRenderer(), 255, 255, 0, 255);
 	SDL_RenderDrawPoint(getRenderer(), x, y);
 }
-
+/*
 void Engine::fireRays() {
 	for (int y = 0; y < win_y; y++) {
 		for (int x = 0; x < win_x; x++) {
+			if (1024 > 768) {
+
+			}
 			drawPixel(x, y);
 		}
 	}
 	SDL_RenderPresent(getRenderer());
-}
+}*/
 
 int Engine::mainLoop() {
 	SDL_Event event;

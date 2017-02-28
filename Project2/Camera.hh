@@ -8,20 +8,23 @@ public:
 	Camera();
 	~Camera();
 	Camera(const Vector3d &, const Vector3d &, 
-			const Vector3d &, const Vector3d &);
+			const Vector3d &, const Vector3d &, const double &);
 	Vector3d getPosition();
-	Vector3d getDirection();
+	Vector3d getW();
+	Vector3d getUp();
 	Vector3d getRight();
-	Vector3d getDown();
-	void   setPosition(const Vector3d &);
-	void   setDirection(const Vector3d &);
-	void   setRight(const Vector3d &);
-	void   setDown(const Vector3d &);
+	double getScreenDist();
+	void setScreenDist(const double & _d);
+	void setPosition(const Vector3d &);
+	void setRight(const Vector3d &);
+	void setUp(const Vector3d & _up);
+	void setW(const Vector3d & _w);
 protected:
 	Vector3d position;
 	Vector3d right;
-	Vector3d down;
-	Vector3d direction;
+	Vector3d up;
+	Vector3d w;
+	double distance_screen;
 };
 
 #endif // !_Camera_HH_

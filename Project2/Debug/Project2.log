@@ -1,8 +1,10 @@
 ﻿  main.cpp
+c:\users\nassim_a\documents\visual studio 2015\projects\raytracercpp\project2\main.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\nassim_a\documents\visual studio 2015\projects\raytracercpp\project2\main.cpp(26): warning C4101: 'pitch_y': unreferenced local variable
+c:\users\nassim_a\documents\visual studio 2015\projects\raytracercpp\project2\main.cpp(26): warning C4101: 'pitch_x': unreferenced local variable
   Generating Code...
-cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
-  Compiling...
-  plane.cpp
-  Generating Code...
+  Skipping... (no relevant changes detected)
+  camera.cpp
+Debug\Light.obj : warning LNK4042: object specified more than once; extras ignored
   Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Debug\Project2.exe
   Project2.vcxproj -> C:\Users\nassim_a\Documents\Visual Studio 2015\Projects\raytracercpp\Debug\Project2.pdb (Partial PDB)
